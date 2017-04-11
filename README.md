@@ -35,6 +35,8 @@ Type:
 Insert the following entry, making sure the path to the main.php file is the correct one from your environment.
 `0 0 * * * php /var/www/html/main.php`
 
+Note: If the path for the project is different than the default one used in the project ( /var/www/html/main.php ) please make sure you also update the path to the birthdays.php file in the main.php file `$bdays = file_get_contents('/var/www/html/birthdays.php');`
+
 ### Authors
 
 Rodica Andronache -- Themeisle -- rodica@themeisle.com -- @rodica-andronache
