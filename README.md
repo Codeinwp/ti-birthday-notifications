@@ -7,15 +7,16 @@ Sends a notification two weeks / one week before one of ThemeIsle's team birthda
 ## Prerequisites
 - Ubuntu 16.04
 - LAMP Stack configured
+- A private channel for each person's birthday ( for example: bday-rodica, bday-sabina etc )
+- An incoming webhook associated with each of the birthday's channels.
 
-# How does it work
+## How does it work
 The script runs every day with the help of a cron, set up like this on the server:
 
 sudo crontab -e
 0 0 * * * php /var/www/html/main.php
 
-
-# The birthdays.php file
+## The birthdays.php file
 
 The birthdays.php file will contain the birthdays of all ThemeIsle's team.
 The format is as follows:
