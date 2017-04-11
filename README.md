@@ -8,7 +8,7 @@ Sends a notification two weeks / one week before one of ThemeIsle's team birthda
 - Ubuntu 16.04
 - LAMP Stack configured
 - A private channel for each person's birthday ( for example: bday-rodica, bday-sabina etc )
-- An incoming webhook associated with each of those channels.
+- An incoming webhook associated with each of those channels. For more details about incoming hooks and how to use them check this link https://api.slack.com/incoming-webhooks
 
 ## Files
 
